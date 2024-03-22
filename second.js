@@ -244,9 +244,20 @@ myFunction("Java script")
     }
     const printHello = () =>{
         console.log("hello");
-        
+
     }
     
+ function countVowels(str){
+    let cont = 0;
+    for(const char of str){
+        if (char ==="a" || char ==="e" || char ==="i" || char ==="o" || char ==="u");
+        
+    }{
+        cont++;
+    }
+    console.log(cont);
+
+ }
 
 
 
