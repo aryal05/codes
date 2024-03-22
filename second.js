@@ -187,3 +187,68 @@ let brands = [
     brands[1].ceo[0].name[0].first = "kamal"  // prakash to kamal changed
 console.log(brands);
 
+
+// Functions in java script
+// block of code that performs a specific task,
+//and can be invoked whenever needed
+
+function code () {
+    console.log("Welcome here");
+    console.log("ÿou are welcome");
+ 
+}
+  code(); // call function
+
+function myFunction(msg)
+// parameter >>> input 
+// function parameter are like local variable
+// i.e block scope of function 
+
+
+
+
+
+{
+    console.log(msg);
+}
+myFunction("Java script")
+
+
+
+    // sum of two numbers
+
+    function su(a,b){
+        s = a+b;
+        return s;
+    }
+    let ad = (45,65);
+    console.log(ad)
+ 
+
+    // Arrow function is a compact way of wring a function
+    // Arrow function value is stored in a variable
+
+    const arrowsum = (g,j) =>{
+        console.log(g+j);
+
+    };
+    arrowsum(56,444)
+    const mul = (t,o) =>{
+        console.log(t*o);
+
+    };
+    
+    const div = (i,k) =>{
+        console.log(i/k);
+
+    }
+    const printHello = () =>{
+        console.log("hello");
+        
+    }
+    
+
+
+
+
+
