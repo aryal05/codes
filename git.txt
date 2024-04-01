@@ -1,0 +1,14 @@
+git init 
+
+> git remote add origin https://github.com/aryal05/codes
+> git remote -v
+> git status
+> git add .
+> git commit -m 
+> git push
+
+research ongit 
+git fork
+git brances
+git pull request
+

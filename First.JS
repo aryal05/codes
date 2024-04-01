@@ -160,9 +160,10 @@ if(age>=25){
     console.log("Can Enrol")
 }else if (age <=28){
 console.log("Cannot Enrol")
-}else{
+}{
     console.log("Nun")
 }
+
 
 // Ternary Operators is a special operator
 let Age = 26;

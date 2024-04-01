@@ -52,10 +52,7 @@ let result = text.replace("Microsoft", "W3Schools");
 
 
 // you can also concat by plus sign +
-let str1 = "mind"
-let str2 = "risers"
-let res = str1.concat(str2); 
-console.log(res);
+
 
 // STRINGS ARE Immutable while (Array are mutable i.e can change)
 
@@ -187,6 +184,33 @@ let brands = [
     brands[1].ceo[0].name[0].first = "kamal"  // prakash to kamal changed
 console.log(brands);
 
+let productApiData = {
+    products: [
+        {
+            name: "watch", price : 1000 },
+            { name: "mobile", rate: 1000},
+    ],
+}
+productApiData.products[1].price = productApiData.products[1].rate
+delete  productApiData.products[1].rate
+console.log(productApiData)
+
+// let product = {
+//     name: "proj",
+//     rate: 10000,
+// }
+// console.log(product.rate)
+
+
+
+// let input1 = 100
+// let input2 = 200
+// let rest = input1 + input2
+// console.log(` ${input1} + ${input2} = ${rest}`);
+
+
+
+
 
 // Functions in java script
 // block of code that performs a specific task,
@@ -199,25 +223,14 @@ function code () {
 }
   code(); // call function
 
-function myFunction(msg)
 // parameter >>> input 
 // function parameter are like local variable
 // i.e block scope of function 
 
 
-
-
-
-{
-    console.log(msg);
-}
-myFunction("Java script")
-
-
-
     // sum of two numbers
 
-    function su(a,b){
+  function su(a,b){
         s = a+b;
         return s;
     }
@@ -260,6 +273,51 @@ myFunction("Java script")
  }
 
 
+
+
+
+let todos= [{
+    title: "html", 
+    status: "complete"
+
+   
+
+},
+{
+    title: "css", 
+    status: "complete"
+
+},
+{
+    title: "js", 
+    status: "complete"
+
+},
+
+]
+
+
+// console.log(`${todos[0].title} is ${todos[0].status }`);
+// console.log(`${todos[1].title} is ${todos[1].status }`);
+// console.log(`${todos[2].title} is ${todos[2].status }`);
+
+
+function printStatus(index){
+    console.log(`${todos[index].title} is ${todos[index].status }`);
+}
+
+
+printStatus(0)
+printStatus(1)
+printStatus(2)
+
+
+function printTodoInfo(todos){
+    console.log(`${todos.title} is ${todos.status}`)
+}
+printTodoInfo(todos[0])
+printTodoInfo(todos[1])
+printTodoInfo(todos[2])
 
 
 
