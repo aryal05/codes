@@ -260,13 +260,13 @@ for(num = 1; num<=100; num++){
     if( num %2=== 0 )
     console.log("num= ", num);
 }
-let gamenumber = 36;
-let usernumber = prompt("Guess the game number: ");
-while (usernumber !=gamenumber){
-   usernumber= prompt("You entered the wrong number, Guess again");
+// let gamenumber = 36;
+// let usernumber = prompt("Guess the game number: ");
+// while (usernumber !=gamenumber){
+//    usernumber= prompt("You entered the wrong number, Guess again");
 
-}
-console.log("wow you entered the right number");
+// }
+// console.log("wow you entered the right number");
 
 
 

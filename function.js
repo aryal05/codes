@@ -199,62 +199,62 @@ let { paid, hasScholoarship, intern } = student
 
 
 
-// LOOPS IN JAVA SCRIPT 
-for
-    (let i = 1; i <= 50; i++) {
-    console.log("Rajat Aryal");
-}
-let summ = 0;
-for
-    (let i = 1; i <= 6; i++) {
-    sum = summ + i;
+// // LOOPS IN JAVA SCRIPT 
+// for
+//     (let i = 1; i <= 50; i++) {
+//     console.log("Rajat Aryal");
+// }
+// let summ = 0;
+// for
+//     (let i = 1; i <= 6; i++) {
+//     sum = summ + i;
 
-}
-console.log("summ = ", summ);
+// }
+// console.log("summ = ", summ);
 
 
-// While loops
-// let i =1;
-// while(i<=6){
-//     console.log(i)
-//     // i++
+// // While loops
+// // let i =1;
+// // while(i<=6){
+// //     console.log(i)
+// //     // i++
+// // }
+
+// // // do while loop
+// let i = 1;
+// do {
+//     console.log("JINGLE")
+//     i++
+// }
+// while (i <= 6);
+
+// // for -of loop   not used for object
+// let size = 0;
+// let str = "ADVENTURES"
+// for (let i of str) {
+//     console.log("i = ", i);
+//     size++;
+// }
+// console.log("string size =", size)
+
+// // // for in loop it returns keys used for object and string
+// let cottage = {
+//     dish: "MoMos",
+//     hotel: 6000,
+// };
+// for (let i in cottage) {
+//     console.log(i, "value=", cottage[i]);
 // }
 
-// // do while loop
-let i = 1;
-do {
-    console.log("JINGLE")
-    i++
-}
-while (i <= 6);
 
-// for -of loop   not used for object
-let size = 0;
-let str = "ADVENTURES"
-for (let i of str) {
-    console.log("i = ", i);
-    size++;
-}
-console.log("string size =", size)
-
-// // for in loop it returns keys used for object and string
-let cottage = {
-    dish: "MoMos",
-    hotel: 6000,
-};
-for (let i in cottage) {
-    console.log(i, "value=", cottage[i]);
-}
+// // // for finding even numbers 
 
 
-// // for finding even numbers 
-
-
-for (num = 1; num <= 10; num++) {
-    if (num % 2 === 0)
-        console.log("num= ", num);
-}
-// Random number game
+// for (num = 1; num <= 10; num++) {
+//     if (num % 2 === 0)
+//         console.log("num= ", num);
+// }
+// // Random number game
 let gameNumber = 52;
 let userNumber = prompt("Enter The Game Number")
 if (userNumber != gameNumber) {

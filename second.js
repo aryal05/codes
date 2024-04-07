@@ -321,3 +321,28 @@ printTodoInfo(todos[2])
 
 
 
+
+
+let dbUsers = [{
+    userName: "krish",
+    email: "ris@",
+    password: "1111",
+},
+{
+    userName: "prasanth",
+    email: "prashta@",
+    password: "2211",
+},];
+
+const outPut =(email,password)=>{
+    for(i=0; i<dbUsers.length; i++){
+        let verification = dbUsers[i]
+        if(verification.email===email && verification.password=== password){
+            console.log("Your are welcome")
+        }
+            return;
+        }
+        console.log("Try Again")
+    }
+
+outPut("ris@", "1111")
