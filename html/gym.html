@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryal Fitness</title>
+    <link rel="stylesheet" href="rajat.css">
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/dd.avif);
+
+
+    }
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+
+
+
+    }
+
+
+    .left img {
+        width: 74px;
+        position: absolute;
+        left: 14px;
+        filter: invert(88%)
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 175px;
+        font-family: cursive;
+    }
+
+    .mid {
+
+        display: block;
+        width: 55%;
+        margin: 20px auto;
+
+
+
+    }
+
+    div:hover {
+        color: burlywood;
+        cursor: pointer;
+
+
+
+    }
+
+    div {
+        font-size: 15px;
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 18px;
+
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 51px;
+        font-size: 18px;
+        text-decoration: underline;
+
+    }
+
+    .navbar li a:hover {
+        color: burlywood;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        padding: 4px 13px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 12px;
+
+    }
+
+    .btn:hover {
+        color: burlywood;
+        background-color: brown;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 120px 82px;
+        padding: 36px 31px;
+        width: 27%;
+        border-radius: 47px
+    }
+
+    .form input {
+        text-align: center;
+        display: block;
+        width: 246px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 20px auto;
+        border-radius: 20px;
+        font-size: 16px;
+
+    }
+
+    .form input:hover {
+        color: rgb(216, 122, 0);
+    }
+
+    .bttn {
+        margin: 0px 9px;
+        color: white;
+        padding: 4px 15px;
+        background-color: black;
+        cursor: pointer;
+        border-radius: 12px;
+
+
+
+    }
+
+    .container button {
+        display: block;
+        width: 27%;
+        margin: auto;
+    }
+
+    /* .form button{
+        display: block;
+        width: 4px;
+
+    } */
+    /*
+    /* a{
+        position: absolute;
+        right: 10px; */
+
+    /* } */
+   
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <!-- mid box is for nav bar-->
+        <!-- right box is for buttons -->
+        <div class="left">
+            <img src="img/images.png" alt="">
+            <div>Aryal's Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Blog">Blog</a></li>
+                <li><a href="Searches">Searches</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Be The Part Of Aryal's <b>Fitness Club </b></h1>
+       
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+
+            <div class="form">
+                <input type="number" name="" placeholder="Enter Your Number">
+            </div>
+            <button class="bttn">
+                Submit
+            </button>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
