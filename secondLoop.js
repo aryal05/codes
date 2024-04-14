@@ -42,7 +42,7 @@ for (let i=1; i<=n; i++){
 }
 console.log(arry)
 let res=arry.reduce((pre, curr)=>{
-    return pre+curr;
+    return pre*curr;
 });
 console.log(res)
 

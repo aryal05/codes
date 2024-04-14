@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color: teal;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+        padding: 30px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        flex-shrink: 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .round{
+        border-radius: 50%;
+        border: 5px solid black;
+    }
+</style>
+<body>
+   <div class="container" id="container">
+    <div class="box" id="box-1">box-1</div>
+    <div class="box" id="box-2">box-2</div>
+    <div class="box" id="box-3">box-3</div>
+    <div class="box" id="box-4">box-4</div>
+   </div>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sunt autem quas quibusdam, incidunt corporis.</p>
+    <script src="dom.js"></script>
+</body>
+</html>

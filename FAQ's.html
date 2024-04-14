@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fcbecf01b8.js" crossorigin="anonymous"></script>
+</head>
+
+
+<style>
+    body{
+        background-color: beige;
+        padding: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6rem;
+    }
+    .accordian{
+        background-color: rgb(154, 185, 187);
+        padding: 4px 16px;
+        margin-bottom: 16px;
+        border-radius:6px ;
+        box-shadow: 2px 2px 5px rgb(184, 126, 196);
+        cursor: pointer;
+        width: 55%;
+      
+
+    }
+    .question{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .icon{
+        margin-right: 16px;
+        transition:  transform 0.2sec;
+    }
+    .icon.active{
+        transform: rotate(-180deg);
+    }
+
+
+    .answer{
+        color: #666;
+        max-height: 0;
+        overflow: hidden;
+
+    }
+    .answer.active{
+        max-height: fit-content;
+    }
+
+
+
+
+
+
+</style>
+<body>
+    <h2>FAQ's</h2>
+    <div class="accordian">
+        <div class="question">
+            <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            <i class="icon active fa-sharp fa-solid fa-caret-down"></i>
+
+        </div>
+        <div class="answer active">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus earum, dignissimos hic fugiat molestias eum 
+                similique obcaecati rerum error tenetur nisi totam!</p>
+        </div>
+    </div>
+    <div class="accordian">
+        <div class="question">
+            <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            <i class="icon fa-sharp fa-solid fa-caret-down"></i>
+
+        </div>
+        <div class="answer ">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus earum, dignissimos hic fugiat molestias eum 
+                similique obcaecati rerum error tenetur nisi totam!</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            <i class="icon fa-sharp fa-solid fa-caret-down"></i>
+
+        </div>
+        <div class="answer active">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus earum, dignissimos hic fugiat molestias eum 
+                similique obcaecati rerum error tenetur nisi totam!</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="FAQs.js"></script>
+</body>
+</html>
