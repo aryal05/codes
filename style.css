@@ -1,0 +1,64 @@
+/* Header */
+header {
+	background-color: #333;
+	color: aqua;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: aqua;
+	text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+.hero h2 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+}
+
+.btn {
+	background-color: #fff;
+	color: #333;
+	padding: 15px 30px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #ccc;
+}
+
+/* Music section */
+
+

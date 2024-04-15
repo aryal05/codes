@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+
+</head>
+<style>
+    :root{
+        --primary-color: rgb(83, 115, 156);
+        --danger-color: green;
+        --maxw: 100%;
+    }
+    .container{
+        max-width: var(--maxw);
+        margin: auto ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        --box-color : rgb(59, 74, 82) ;
+        width: 220px;
+        height: 220px;
+        background-color: var(--primary-color);
+        border: 2px solid black;
+        margin: 2px 11px;
+        box-shadow: 3px 3px var(--box-color);
+        justify-content: center;
+        display: flex;
+
+
+        
+    }
+
+
+</style>
+<body>
+     <div class="container">
+        <div class="box">
+            <h1>
+                apiente repellendus, nam veniam. Ea.
+            </h1>
+
+        </div>
+        <div class="box">
+            <h1>
+                apiente repellendus, nam veniam. Ea.
+            </h1>
+        </div>
+        <div class="box">
+            <h1>
+                apiente repellendus, nam veniam. Ea.
+        </h1>
+        </div>
+        <div class="box">
+            <h1>
+                apiente repellendus, nam veniam. Ea.
+        </h1>
+        </div>
+     </div>
+</body>
+</html>

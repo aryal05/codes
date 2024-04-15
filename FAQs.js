@@ -39,3 +39,4 @@ accordians.forEach(accordian =>{
         answer.classList.toggle('active');
     })
 })
+
